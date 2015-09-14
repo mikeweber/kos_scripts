@@ -4,7 +4,7 @@ from { local countdown is 10. } until countdown = 0 step { set countdown to coun
   wait 1.
 }
 
-print "Ignition. We are go for liftoff."
+print "Ignition. We are go for liftoff.".
 lock throttle to 1.0.
 wait 0.5.
 until ship:maxthrus > 0 {
